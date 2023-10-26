@@ -1,6 +1,6 @@
 <mxfile host="65bd71144e">
     <diagram id="rcUHlj1lV0WHpPZUBOzG" name="Page-1">
-        <mxGraphModel dx="530" dy="1607" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+        <mxGraphModel dx="421" dy="1480" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
             <root>
                 <mxCell id="0"/>
                 <mxCell id="1" parent="0"/>
@@ -181,22 +181,32 @@
                 <mxCell id="167" value="+ getAnzAngestellterGesamt( ): int" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="57" vertex="1">
                     <mxGeometry y="198" width="335" height="26" as="geometry"/>
                 </mxCell>
+                <mxCell id="198" value="" style="endArrow=classic;html=1;fontColor=#DA3434;strokeColor=#DA3434;" edge="1" parent="57">
+                    <mxGeometry width="50" height="50" relative="1" as="geometry">
+                        <mxPoint x="407" y="289" as="sourcePoint"/>
+                        <mxPoint x="243" y="238" as="targetPoint"/>
+                        <Array as="points">
+                            <mxPoint x="357" y="289"/>
+                            <mxPoint x="357" y="238"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
                 <mxCell id="156" value="+ berechneSummeAlleGehaelter( ): double" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="57" vertex="1">
                     <mxGeometry y="224" width="335" height="26" as="geometry"/>
                 </mxCell>
                 <mxCell id="176" value="+ ausgabeMitarbeiterliste( ): void" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="57" vertex="1">
                     <mxGeometry y="250" width="335" height="26" as="geometry"/>
                 </mxCell>
-                <mxCell id="191" value="+ ausgabe_AlleAbteilungen( ): void" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="57">
+                <mxCell id="191" value="+ ausgabe_AlleAbteilungen( ): void" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="57" vertex="1">
                     <mxGeometry y="276" width="335" height="26" as="geometry"/>
                 </mxCell>
-                <mxCell id="192" value="+ searchAbteilung(id: int): boolean" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="57">
+                <mxCell id="192" value="+ searchAbteilung(id: int): boolean" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="57" vertex="1">
                     <mxGeometry y="302" width="335" height="26" as="geometry"/>
                 </mxCell>
-                <mxCell id="193" value="+ getMitarbeiterListeVonAbteilung(abt_id int): Mitarbeiter[ ]" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="57">
+                <mxCell id="193" value="+ getMitarbeiterListeVonAbteilung(abt_id int): Mitarbeiter[ ]" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="57" vertex="1">
                     <mxGeometry y="328" width="335" height="26" as="geometry"/>
                 </mxCell>
-                <mxCell id="194" value="+ searchMitarbeiterAusFirma(mitarbeiter_id: int): Mitarbeiter" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="57">
+                <mxCell id="194" value="+ searchMitarbeiterAusFirma(mitarbeiter_id: int): Mitarbeiter" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="57" vertex="1">
                     <mxGeometry y="354" width="335" height="26" as="geometry"/>
                 </mxCell>
                 <mxCell id="67" value="Abteilung" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" parent="1" vertex="1">
@@ -310,10 +320,10 @@
                 <mxCell id="122" value="- TAX_ARB: double" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="120" vertex="1">
                     <mxGeometry y="61" width="240" height="26" as="geometry"/>
                 </mxCell>
-                <mxCell id="189" value="- SIZE_MITARBEITER: int" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="120">
+                <mxCell id="189" value="- SIZE_MITARBEITER: int" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="120" vertex="1">
                     <mxGeometry y="87" width="240" height="26" as="geometry"/>
                 </mxCell>
-                <mxCell id="190" value="- SIZE_ABTEILUNGEN: int" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="120">
+                <mxCell id="190" value="- SIZE_ABTEILUNGEN: int" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="120" vertex="1">
                     <mxGeometry y="113" width="240" height="26" as="geometry"/>
                 </mxCell>
                 <mxCell id="132" value="- ABTEILUNG_PR: String" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="120" vertex="1">
@@ -334,8 +344,11 @@
                         <mxPoint x="420" y="-981" as="targetPoint"/>
                     </mxGeometry>
                 </mxCell>
-                <mxCell id="196" value="4.1" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontStyle=1" vertex="1" parent="1">
+                <mxCell id="196" value="4.1" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontStyle=1" parent="1" vertex="1">
                     <mxGeometry x="83" y="-1069" width="60" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="197" value="Wurde vom Trainer nachträglich mündlich von void auf double geändert. (Ist mit Stand 26.Oktober noch nicht in der schriftlichen Angabe berücksichtigt.)" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;fontColor=#DA3434;" vertex="1" parent="1">
+                    <mxGeometry x="496" y="-765" width="210" height="90" as="geometry"/>
                 </mxCell>
             </root>
         </mxGraphModel>
